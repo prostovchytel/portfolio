@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang='uk'><head>
+<meta charset='UTF-8'><title>🧑‍💻 Моє портфоліо</title>
+<link rel='stylesheet' href='css/style.css'></head><body>
+<header class="nav-glass">
+
+  <div class="nav-inner">
+
+    <a href="./index.html" class="logo">
+
+      <svg class="logo-monogram"
+           viewBox="0 0 100 100"
+           xmlns="http://www.w3.org/2000/svg">
+
+        <defs>
+
+          <linearGradient id="bbGrad"
+            x1="0%" y1="0%"
+            x2="100%" y2="100%">
+
+            <stop offset="0%" stop-color="#00e5ff"/>
+            <stop offset="50%" stop-color="#7c4dff"/>
+            <stop offset="100%" stop-color="#ff4ecd"/>
+
+          </linearGradient>
+
+          <filter id="bbGlow">
+
+            <feGaussianBlur stdDeviation="3"
+              result="coloredBlur"/>
+
+            <feMerge>
+              <feMergeNode in="coloredBlur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+
+          </filter>
+
+        </defs>
+
+        <circle cx="50"
+                cy="50"
+                r="42"
+                stroke="url(#bbGrad)"
+                stroke-width="2.5"
+                fill="none"
+                filter="url(#bbGlow)"/>
+
+        <text x="50"
+              y="60"
+              text-anchor="middle"
+              font-size="34"
+              font-family="Space Grotesk, sans-serif"
+              fill="url(#bbGrad)"
+              filter="url(#bbGlow)">
+
+          ББ
+
+        </text>
+
+      </svg>
+
+      <span>Богдан БІЛОКОННИЙ</span>
+
+    </a>
+
+    <nav class="nav-links">
+
+      <a href="./index.html" class="nav-btn">Головна</a>
+
+      <a href="./students.html" class="nav-btn">
+        Досягнення учнів
+      </a>
+
+      <a href="./events.html" class="nav-btn">
+        Заходи
+      </a>
+
+      <a href="./certificates.html" class="nav-btn">
+        Самоосвітня діяльність
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+<section class="hero-cosmic small">
+
+  <div class="hero-bg"></div>
+
+  <div class="hero-inner">
+    <h1>Досягнення учнів</h1>
+    <p>Конкурси • Олімпіади • Проєкти</p>
+  </div>
+
+</section>
+
+<section class='cards'>
+<div class='card'>🥇 BEBRAS <span class='badge'>Відмінно/Добре/Успішно</span></div>
+<div class='card'>🥈 Програмування у Scratch <span class='badge'>III місце </span></div>
+<div class='card'>🌐 Web-дизайн <span class='badge'>Участь</span></div>
+</section>
+
+<section>
+    <h1>Освітня діяльність у показниках</h1>
+    <div class='stats'>
+        <div><div class='stat' data-end='8'>0</div><p>Класів</p></div>
+        <div><div class='stat' data-end='106'>0</div><p>Учнів</p></div>
+        <div><div class='stat' data-end='18'>0</div><p>Учасників конкурсів</p></div>
+        <div><div class='stat' data-end='8'>0</div><p>Учні з високими навчальними досягненнями</p></div>
+</div>
+</section>
+
+<div class="cosmic-divider"></div>
+
+<section class="activity-path">
+  <h1>Досягнення учнів:</h1>
+  <h3>Міський конкурс учнівської молоді з інформаційних технологій 2025:</h3>
+
+  <div class="cosmic-cards">
+    <div class="cosmic-card">«Початкове програмування у Scratch» — Столяр В’ячеслав (4-А) — ІІІ місце</div>
+    <div class="cosmic-card">«Web-дизайн» — Вишневський Сергій (6-Б) — участь</div>
+  </div>
+  <br>
+  <br>
+  <h3>Міжнародний конкурс БЕБРАС-2025:</h3>
+
+  <div class="cosmic-cards">
+    <div class="cosmic-card">відмінний результат — 3 учні</div>
+    <div class="cosmic-card">добрий результат — 4 учні</div>
+  </div>
+  </section>
+
+<div class="cosmic-divider"></div>
+
+  <section class='gallery'>
+<img src='assets/images/students/001.png'>
+<img src='assets/images/students/002.png'>
+<img src='assets/images/students/003.png'>
+<img src='assets/images/students/01.jpg'>
+<img src='assets/images/students/1.jpg'>
+<img src='assets/images/students/2.jpg'>
+<img src='assets/images/students/3.jpg'>
+<img src='assets/images/students/4.jpg'>
+<img src='assets/images/students/5.jpg'>
+<img src='assets/images/students/6.jpg'>
+<img src='assets/images/students/7.jpg'>
+<img src='assets/images/students/8.jpg'>
+<img src='assets/images/students/9.jpg'>
+<img src='assets/images/students/10.jpg'>
+<img src='assets/images/students/11.jpg'>
+<img src='assets/images/students/12.jpg'>
+<img src='assets/images/students/13.jpg'>
+<img src='assets/images/students/14.jpg'>
+<img src='assets/images/students/15.jpg'>
+<img src='assets/images/students/16.jpg'>
+</section>
+
+<div class="cosmic-divider"></div>
+
+<footer>
+    © Білоконний Богдан Анатолійович <br>
+    📧 email: bohdanbilokonnyi@gmail.com <br>
+    КЗ «Вінницький ліцей №3 ім. М. Коцюбинського» <br>
+<div class="cosmic-divider"></div>
+</footer>
+<script src='js/main.js'></script>
+<div class="lightbox" id="lightbox">
+  <span class="close">&times;</span>
+  <img id="lightbox-img">
+</div>
+</body></html>
